@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     var clicks: Int = 0
     var previousCard: UIButton?
     var images: [String] = ["💀", "💀", "🤪", "🤪", "🎃", "🎃", "😺", "😺", "🧛🏻‍♂️", "🧛🏻‍♂️",
-                            "🦆", "🦆", "🦉", "🦉", "🕸", "🕸", "🌚", "🌚", "☃️", "☃️"]
+                            "🦆", "🦆", "🦉", "🦉", "🕸", "🕸", "🌚", "🌚", "☃️", "☃️"].shuffled()
     @IBOutlet var cards: [UIButton]!
     
     override func viewDidLoad() {
